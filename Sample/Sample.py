@@ -8,4 +8,37 @@
 
 numA = 2
 numB = 3
+numC = 4
 print(2 + 3)
+
+strA = "文字列A"
+strB = "文字列B"
+print(strA + strB)
+
+array = [0, 1, 2, 3, 5]
+print(array)
+print(array[0])
+
+if numA == 2:
+  print("OK")
+elif numA == 3:
+  print("NG")
+else:
+  print("NG")
+
+if numB == 2:
+  print("NG")
+elif numB == 3:
+  print("OK")
+else:
+  print("NG")
+
+if numC == 2:
+  print("NG")
+elif numC == 3:
+  print("NG")
+else:
+  print("OK")
+
+for number in array:
+  print(number)
