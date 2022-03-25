@@ -1,3 +1,8 @@
+
+# 参照ドキュメント
+# https://docs.python.org/ja/3/
+
+
 # コマンドプロンプトでpyコマンドで>>>がでるので、一行ずつコーディングしていく。
 # 終了は、Ctrl+Zかquit()かexit()。
 # if文等は>>>の後に...が出るが、Tabでインデントを正しくしておかないとエラー。
@@ -42,3 +47,22 @@ else:
 
 for number in array:
   print(number)
+
+# 関数の定義→def
+def printTest():
+  print("TestMethod")
+
+def returnTest():
+  return "TestMethod"
+
+def printNumber(number):
+  print(number)
+
+printTest()
+print(returnTest())
+printNumber(100)
+
+import FibonacciNumbersModule
+FibonacciNumbersModule.fib(1000)
+FibonacciNumbersModule.fib2(100)
+FibonacciNumbersModule.__name__
