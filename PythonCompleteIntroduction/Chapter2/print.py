@@ -38,3 +38,27 @@ print(0x7b)  # 16進数
 
 print(1234.5678)
 print(1.2345678e3)
+
+print(
+    "1行目"
+    "2行目"
+    "3行目"
+)
+print(
+    """
+    1行目
+    2行目
+    3行目
+    """
+)
+print(
+    """\
+    1行目
+    2行目
+    3行目\
+    """
+)
+# SyntaxError
+# print("C:\Users\home\Desktop\PythonPractice\PythonCompleteIntroduction\Chapter2\print.py")
+print("C:\\Users\\home\\Desktop\\PythonPractice\\PythonCompleteIntroduction\\Chapter2\\print.py")
+print(r"C:\Users\home\Desktop\PythonPractice\PythonCompleteIntroduction\Chapter2\print.py")
