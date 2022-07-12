@@ -30,3 +30,11 @@ print()
 # pycodestyle print.py ←pep8に沿っているか
 # autopep8 -i print.py ←pep8に沿った変更を表示
 # autopep8 -i print.py ←pep8に沿った変更で上書き
+
+print(123)  # 10進数
+print(0b1111011)  # 2進数
+print(0o173)  # 8進数
+print(0x7b)  # 16進数
+
+print(1234.5678)
+print(1.2345678e3)
