@@ -62,3 +62,12 @@ print(
 # print("C:\Users\home\Desktop\PythonPractice\PythonCompleteIntroduction\Chapter2\print.py")
 print("C:\\Users\\home\\Desktop\\PythonPractice\\PythonCompleteIntroduction\\Chapter2\\print.py")
 print(r"C:\Users\home\Desktop\PythonPractice\PythonCompleteIntroduction\Chapter2\print.py")
+
+print(1 < 2 and 2 < 3)
+print(1 < 2 < 3)
+print(bool("test"))
+print(bool(""))
+print(bool(1))
+print(bool(0))
+print(bool("False"))
+print(bool(False))
