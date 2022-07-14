@@ -89,3 +89,21 @@ print(bool(1))
 print(bool(0))
 print(bool("False"))
 print(bool(False))
+
+string_a = "StringA"
+string_b = "StringB"
+string_c = "StringC"
+
+string_a = string_c = "StringC"
+print(string_a)
+string_c = "StringA"
+print(string_a)
+
+print(string_a == string_b)
+print(string_a is string_b)
+print(string_a == string_c)
+print(string_a is string_c)
+
+print(id(string_a))
+print(id(string_b))
+print(id(string_c))
