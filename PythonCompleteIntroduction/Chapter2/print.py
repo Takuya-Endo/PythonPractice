@@ -1,3 +1,6 @@
+import math
+
+
 for i in range(5):
     print(i)
 
@@ -62,6 +65,21 @@ print(
 # print("C:\Users\home\Desktop\PythonPractice\PythonCompleteIntroduction\Chapter2\print.py")
 print("C:\\Users\\home\\Desktop\\PythonPractice\\PythonCompleteIntroduction\\Chapter2\\print.py")
 print(r"C:\Users\home\Desktop\PythonPractice\PythonCompleteIntroduction\Chapter2\print.py")
+
+print(int(1.2))
+print(int(1.8))
+print(int(-1.2))
+print(int(-1.8))
+print(float(1))
+print(float(-1))
+print(math.floor(1.2))
+print(math.floor(1.8))
+print(math.floor(-1.2))
+print(math.floor(-1.8))
+print(math.ceil(1.2))
+print(math.ceil(1.8))
+print(math.ceil(-1.2))
+print(math.ceil(-1.8))
 
 print(1 < 2 and 2 < 3)
 print(1 < 2 < 3)
