@@ -92,12 +92,10 @@ print(bool(False))
 
 string_a = "StringA"
 string_b = "StringB"
-string_c = "StringC"
+string_c = string_a
 
-string_a = string_c = "StringC"
 print(string_a)
-string_c = "StringA"
-print(string_a)
+print(string_c)
 
 print(string_a == string_b)
 print(string_a is string_b)
@@ -107,3 +105,19 @@ print(string_a is string_c)
 print(id(string_a))
 print(id(string_b))
 print(id(string_c))
+
+string_a = "StringC"  # 文字列はimmutableオブジェクトのため参照も書き換わる
+print(string_a)
+print(string_c)
+
+print(id(string_a))
+print(id(string_b))
+print(id(string_c))
+
+print("A" + "B" + "C")
+print(1 + 2 + 3)
+print("A" + "B" + "C")
+print("A" + str(2) + "C")
+
+print("A" < "B")
+print("A" * 5)
