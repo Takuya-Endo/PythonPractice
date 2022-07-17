@@ -88,3 +88,10 @@ print("A" + str(2) + "C")
 
 print("A" < "B")
 print("A" * 5)
+
+print("ABCDE"[1])
+print("ABCDE"[-2])
+print("ABCDE"[1:4])
+print("ABCDE"[:2] + "C" + "ABCDE"[-2:])
+print("ABCDE"[0:5:2])
+print("ABCDE"[::-1])
