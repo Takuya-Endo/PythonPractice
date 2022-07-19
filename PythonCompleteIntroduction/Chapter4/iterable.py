@@ -15,3 +15,26 @@ list_b = list_a[:]
 print(id(list_b))
 list_b = list_a.copy()
 print(id(list_b))
+
+list_b = list_b[:4]
+list_b.append("E")
+print(list_b)
+list_b = list_b[:3]
+list_b += ["D", "E"]
+print(list_b)
+list_b = list_b[:3]
+list_b += list("DE")
+print(list_b)
+
+list_b = list_b[:3]
+list_b.extend(["D", "E"])
+print(list_b)
+list_b = list_b[:3]
+list_b.extend(list("DE"))
+print(list_b)
+list_b = list_b[:3]
+list_b[len(list_b):] = ["D", "E"]
+print(list_b)
+list_b = list_b[:3]
+list_b[len(list_b):] = list("DE")
+print(list_b)
