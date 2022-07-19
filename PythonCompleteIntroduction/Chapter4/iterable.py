@@ -7,3 +7,11 @@ print(list_a[1])
 print(list_a[-2])
 print(list_a[1:4])
 print(list_a[::2])
+
+list_b = list_a
+print(id(list_a))
+print(id(list_b))
+list_b = list_a[:]
+print(id(list_b))
+list_b = list_a.copy()
+print(id(list_b))
