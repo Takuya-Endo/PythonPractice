@@ -38,3 +38,12 @@ print(list_b)
 list_b = list_b[:3]
 list_b[len(list_b):] = list("DE")
 print(list_b)
+
+del(list_b[4])
+print(list_b)
+list_b.pop(3)
+print(list_b)
+list_b.remove("C")
+print(list_b)
+list_b += list("CDE")
+print(list_b)
