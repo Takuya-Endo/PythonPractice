@@ -71,3 +71,14 @@ list_d.sort()
 print(list_d)
 list_d.sort(reverse=True)
 print(list_d)
+print(max(list_d))
+print(min(list_d))
+
+tuple_a = ("A", "B", "C", "D", "E")
+print(tuple_a)
+tuple_b = tuple_a[1:4]
+print(tuple_b)
+tuple_c = "A",
+print(tuple_c)
+tuple_d = tuple("A")
+print(tuple_d)
