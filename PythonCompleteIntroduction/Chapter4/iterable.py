@@ -82,3 +82,18 @@ tuple_c = "A",
 print(tuple_c)
 tuple_d = tuple("A")
 print(tuple_d)
+
+a = tuple_a
+print(a)
+a, *x = tuple_a
+print(a)
+*x, e = tuple_a
+print(e)
+x, b, *x = tuple_a
+print(b)
+a, *x, e = tuple_a
+print(a, e)
+
+strings = "ABCDE"
+list_e = [tuple(strings), ("A",), list(strings), strings, tuple(strings)]
+print(list_e)
