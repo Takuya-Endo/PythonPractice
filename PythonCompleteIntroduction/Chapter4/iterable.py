@@ -132,3 +132,12 @@ set_a.remove("F")
 set_a.discard("G")
 set_a -= {"H", "I", "J"}
 print(set_a)
+
+set_b = set("python")
+set_c = set("JavaScript")
+print(set_b)
+print(set_c)
+print(set_b | set_c)  # 和集合
+print(set_b & set_c)  # 積集合
+print(set_b - set_c)  # 差集合
+print(set_b ^ set_c)  # 対称差
