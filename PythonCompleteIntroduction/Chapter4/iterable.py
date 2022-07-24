@@ -97,3 +97,13 @@ print(a, e)
 strings = "ABCDE"
 list_e = [tuple(strings), ("A",), list(strings), strings, tuple(strings)]
 print(list_e)
+
+set_a = {"A", "B", "C", "D", "E"}
+print(set_a)
+list_a = list()
+set_a = set()
+print(list_a, set_a)
+set_a = set("ABCDE")
+print(set_a)
+set_a = set("ABCDEABCDEABCDE")
+print(set_a)
