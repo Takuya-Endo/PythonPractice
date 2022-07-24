@@ -107,3 +107,13 @@ set_a = set("ABCDE")
 print(set_a)
 set_a = set("ABCDEABCDEABCDE")
 print(set_a)
+
+print("A" in set_a)
+print("F" not in set_a)
+login_info = {
+    ("admin", "p@ssw0rd"), ("guest", "pass"), ("user", "myPass")
+}
+login = ("admin", "password")
+print(login in login_info)
+login = ("admin", "p@ssw0rd")
+print(login in login_info)
