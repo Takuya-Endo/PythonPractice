@@ -141,3 +141,24 @@ print(set_b | set_c)  # 和集合
 print(set_b & set_c)  # 積集合
 print(set_b - set_c)  # 差集合
 print(set_b ^ set_c)  # 対称差
+
+set_d = {"ja", "en", "fr"}
+dict_a = {"ja": "Japanese", "en": "English", "fr": "French"}
+print(set_d)
+print(dict_a)
+set_d = set()
+dict_a = {}
+print(set_d)
+print(dict_a)
+dict_a = dict(ja="Japanese", en="English", fr="French")
+print(dict_a["ja"])
+print(dict_a.get("en"))
+print(dict_a.get("ch"))
+print(dict_a.get("ch", "undefined"))
+dict_a["ch"] = "Chinese"
+print(dict_a)
+print("ja" in dict_a)  # keyの検索は可能
+print("Japanese" in dict_a)  # valueの検索は不可
+print(dict_a.keys())
+print(dict_a.values())
+print(dict_a.items())
