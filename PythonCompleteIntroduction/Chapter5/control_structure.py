@@ -34,3 +34,13 @@ print()
 for key_element, value_element in map.items():
     print(key_element, value_element, end=", ")
 print()
+
+for num in range(5, 21, 5):
+    print(num, end=", ")
+print()
+
+map_a = {}
+for key, value in enumerate(list_a):
+    print(key, value)
+    map_a[key] = value
+print(map_a)
