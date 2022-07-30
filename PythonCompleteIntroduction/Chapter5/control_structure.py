@@ -18,3 +18,19 @@ for element_a in list_a:
     for str in "abcde":
         print(str, end=", ")
     print()
+
+map = dict(
+    ja="Japanese", en="English", fr="French"
+)
+for element in map.keys():
+    print(element, end=", ")
+print()
+for element in map.values():
+    print(element, end=", ")
+print()
+for element in map.items():
+    print(element, end=", ")
+print()
+for key_element, value_element in map.items():
+    print(key_element, value_element, end=", ")
+print()
