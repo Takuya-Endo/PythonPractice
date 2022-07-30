@@ -44,3 +44,14 @@ for key, value in enumerate(list_a):
     print(key, value)
     map_a[key] = value
 print(map_a)
+
+input_value = "y"
+while input_value == "y":
+    input_value = input("continue? y/n: ")
+
+num = 0
+while True:
+    num += 1
+    if num == 10:
+        break
+    print(num)
