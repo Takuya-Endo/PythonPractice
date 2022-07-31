@@ -15,3 +15,18 @@ def odd_or_even(num1, num2):
 
 
 odd_or_even(2, 3)
+
+map_a = {"odd_odd": (3, 3), "odd_even": (
+    3, 2), "even_odd": (2, 3), "even_even": (2, 2)}
+
+for key, value in map_a.items():
+    print(key, end=": ")
+    odd_or_even(*value)
+
+odd_or_even(num1=1, num2=3)
+
+list_a = [dict(num1=3, num2=3), dict(num1=3, num2=2),
+          dict(num1=2, num2=3), dict(num1=2, num2=2)]
+
+for dict_element in list_a:
+    odd_or_even(**dict_element)
