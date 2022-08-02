@@ -30,3 +30,12 @@ list_a = [dict(num1=3, num2=3), dict(num1=3, num2=2),
 
 for dict_element in list_a:
     odd_or_even(**dict_element)
+
+
+def do_something(message="default message"):
+    print(message)
+
+
+do_something()
+do_something("test message")
+do_something(message="test message")
