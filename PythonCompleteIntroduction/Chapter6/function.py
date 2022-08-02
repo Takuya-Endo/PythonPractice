@@ -39,3 +39,21 @@ def do_something(message="default message"):
 do_something()
 do_something("test message")
 do_something(message="test message")
+
+
+def print_with_key(**map):
+    for key, value in map.items():
+        print(key+":", value)
+
+
+def print_convert_map(*tuple):
+    map = dict()
+    for key, value in enumerate(tuple):
+        map[key+1] = value
+    print(map)
+
+
+print_with_key(arg1="argument01", arg2="argument02",
+               arg3="argument03", arg4="argument04", arg5="argument05")
+print_convert_map("argument01", "argument02",
+                  "argument03", "argument04", "argument05")
